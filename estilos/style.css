@@ -20,50 +20,59 @@
 }
 
 body {
-    background-color: greenyellow;
+    background-color: var(--cor1);
     font-family: var(--fonte-padrao);
 }
 
 header {
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--cor1);
     width: 1440px;
     height: 105px;
     margin: auto;
+    position: relative;
 }
 
-div.logo {
+.logo {
     width: 175px;
     height: 35.39px;
-    margin-top: 25px;
-    background-image: url('../imagens/assets/logo.png');
-    background-position: center;
-    background-size: cover;
+    position: absolute;
+    top: 25px;
+    left: 233px;
 }
 
-#menu-h {
-    list-style-type: none;
-    padding: 0px;
-} 
-
-#menu-h li {
-    display: inline;
+.menu {
+    position: absolute;
+    width: 445px;
+    height: 19px;
+    top: 33px;
+    left: 505px;
 }
 
-#menu-h li a {
+.menu > a {
     color: var(--cor4);
+    padding: 20px;
     text-decoration: none;
-    display: inline;
 }
 
 .meu-botao {
     background-color: var(--cor3);
     color: var(--cor4);
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
     position: absolute;
-    top: 60px;
-    left: 1400px;
+    width: 159px;
+    height: 43px;
+    top: 22px;
+    left: 1047px;
+    border-radius: 6px;
+}
+
+.linha {
+    position: absolute;
+    width: 1284px;
+    top: 86px;
+    left: 79px;
+    border: 1px;
 }
 
 
