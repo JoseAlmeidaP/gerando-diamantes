@@ -17,18 +17,15 @@
     --cor3: black;
     --cor4: white;
 
-    --fonte-padrao: font-family: 'Noto Sans', sans-serif;
-    font-family: 'Passion One', cursive;
+    
 }
 
 body {
     background-color: var(--cor1);
-    font-family: var(--fonte-padrao);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    justify-content: space-between;
-    align-items: center;
     background-color: var(--cor1);
     width: 1440px;
     height: 105px;
@@ -54,8 +51,9 @@ header {
 
 .menu > a {
     color: var(--cor4);
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
+    font-family: var(--font2);
 }
 
 .meu-botao {
@@ -78,6 +76,37 @@ header {
     border: 1px;
 }
 
+.position {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--cor1);
+    width: 100%wv;
+    height: 1633px;
+    position: relative;
+}
 
+.baner-t {
+    position: absolute;
+    width: 1629px;
+    height: 1182px;
+    top: 179.50;
+    left: -180px;
+}
 
+.position-div {
+    position: absolute;
+    top: 270px;
+    left: 1470px;
+}
 
+.position-div2 {
+    position: absolute;
+    top: 1071px;
+    left: 179.24px;
+}
+
+.dev {
+    width: 533.76px;
+    height: 461px;
+}
