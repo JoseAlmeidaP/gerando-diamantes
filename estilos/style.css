@@ -198,9 +198,19 @@ header > div {
     font-weight: bold;
     font-size: 2.5em;
     background-image: linear-gradient(90deg, var(--cor1), var(--cor2));
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: degrade 10s linear infinite;
+}
 
+@keyframes degrade {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 .text2 {
@@ -242,3 +252,34 @@ header > div {
     padding: 10px;
     box-shadow:1px 32px 35px rgba(0, 0, 0, 0.196);
 }
+
+.h2-bc3 {
+    position: absolute;
+    top: 30px;
+    left: 425px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.h2-bc3-2 {
+    position: absolute;
+    top: 30px;
+    left: 760px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.h2-bc3-3 {
+    position: absolute;
+    top: 30px;
+    left: 1076px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pTwo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 200px;
+   text-align: center;
+}
+
