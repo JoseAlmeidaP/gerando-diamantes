@@ -140,7 +140,7 @@ header > div {
     width: 405px;
     height: 729px;
     border-radius: 10px;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 .ele-1  {
@@ -272,7 +272,6 @@ header > div {
 }
 
 #bloco3 {
-    
     position: absolute;
     top:2378px;
     width:100%;
@@ -307,7 +306,6 @@ header > div {
     left:80px;
     font-family: var(--font-padrao);
     font-weight: bolder;
-    
 }
 
 
@@ -315,11 +313,11 @@ header > div {
     font-family: var(--font-padrao);
     font-weight: 100px;
     font-size: .9em;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
 }
 
 .jornada {
@@ -337,21 +335,20 @@ header > div {
 
 #vec2{
     position: absolute;
-    left: 615px;
+    left: 618px;
 }
 #vec3{
     
     position: absolute;
-    left: 10px;
+    left: 0px;
 }
 
 .jornadah2 {
     position: absolute;
-    left: 400px;
- 
+    left: 374px;
     font-family: var(--font2);
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
     background-image: linear-gradient(90deg, var(--cor1), var(--cor2), var(--cor1));
     background-size: 200% 200%;
     -webkit-background-clip: text;
@@ -535,5 +532,50 @@ header > div {
     left: 130px;
     width: 206px;
     height: 30px;
+}
 
+.numberTre {
+    background-color: var(--cor1);
+    width: 100%;
+    height: 505px;
+}
+
+#bloco3-2 {
+    position: absolute;
+    top:3530px;
+    width:100%;
+    height:230px;
+}
+
+.config2 {
+    position: relative;
+    width: 327px;
+    height: 228px;
+    background-color: var(--cor4);
+    border: 1px solid rgba(162, 158, 158, 0.528);
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+    box-shadow:1px 32px 35px rgba(0, 0, 0, 0.196);
+}
+
+.h2-bc3-2 {
+    position: absolute;
+    top: 40px;
+    left:120px;
+    font-family: var(--font-padrao);
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+.pThree {
+    font-family: var(--font-padrao);
+    font-weight: 100px;
+    font-size: .9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    padding: 40px;
 }
