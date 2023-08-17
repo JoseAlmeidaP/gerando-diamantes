@@ -381,17 +381,6 @@ button:active {
     height: 170px;
 }
 
-.but {
-    background-color: var(--cor1);
-    width: 320px;
-    height: 77px;
-    border:solid #A4DCFF;
-    border-radius: 10px;
-    margin-top: 5px;
-    margin: 3px;
-
-}
-
 #t-1 {
     position: absolute;
     top: ;
@@ -401,4 +390,74 @@ button:active {
     position: absolute;
     top: 85px;
     left: 7px;
+}
+
+.but {
+    position: relative;
+    background-color: var(--cor1);
+    width: 320px;
+    height: 77px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin: 8px;
+    padding: 10px;
+    box-shadow: 10px 20px 30px rgba(54, 54, 54, 0.346);
+}
+
+.img-ico{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    position: absolute;
+    top: 12px;
+    width: 51px;
+    height: 51px;
+}
+
+.img-ico2{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    position: absolute;
+    top: 12px;
+    width: 51px;
+    height: 51px;
+}
+
+.ico {
+    background-color: var(--cor4);
+    position: absolute;
+    top: 12px;
+    left:12px;
+    padding: 1px;
+    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+}
+.ico2 {
+    background-color: var(--cor4);
+    position: absolute;
+    top: 12px;
+    left:12px;
+    padding: 1px;
+    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.pb {
+    font-family: var(--font-padrao);
+    font-size: .9em;
+    color: var(--cor4);
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    padding: 40px;
+}
+.pb1 {
+    font-family: var(--font-padrao);
+    font-size: .9em;
+    color: var(--cor4);
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    padding: 40px;
 }
