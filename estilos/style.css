@@ -303,12 +303,16 @@ button:active {
     position: absolute;
     top: 40px;
     left:80px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-padrao);
+    font-weight: bolder;
     
 }
 
 
 .pTwo {
+    font-family: var(--font-padrao);
+    font-weight: 100px;
+    font-size: .9em;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -316,3 +320,85 @@ button:active {
    height: 250px;
 }
 
+.jornada {
+    position: absolute;
+    top: 2750px;
+    width: 100%;
+    height: 48px;
+}
+
+#div3 {
+    position: absolute;
+    width: 992px;
+    height: 30px;
+}
+
+#vec2{
+    position: absolute;
+    left: 615px;
+}
+#vec3{
+    
+    position: absolute;
+    left: 10px;
+}
+
+.jornadah2 {
+    position: absolute;
+    left: 400px;
+ 
+    font-family: var(--font2);
+    font-weight: bold;
+    font-size: 2em;
+    background-image: linear-gradient(90deg, var(--cor1), var(--cor2), var(--cor1));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: degrade 10s linear infinite alternate;
+}
+
+@keyframes degrade {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.bloco6 {
+    position: absolute;
+    top: 2850px;
+    width: 100%;
+    height: 180px;
+}
+
+#div6 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 992px;
+    height: 170px;
+}
+
+.but {
+    background-color: var(--cor1);
+    width: 320px;
+    height: 77px;
+    border:solid #A4DCFF;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin: 3px;
+
+}
+
+#t-1 {
+    position: absolute;
+    top: ;
+    left:7px;
+}
+#t-2 {
+    position: absolute;
+    top: 85px;
+    left: 7px;
+}
