@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 *{
@@ -16,10 +17,16 @@
     --cor2: #A4DCFF;
     --cor3: black;
     --cor4: white;
+
+    --font-padrao: 'Noto Sans', sans-serif;
+    --font1: 'Anton', sans-serif;
+    --font2: arial, sans-serif;
 }
 
+
+
 body {
-    font-family: 'Noto Sans', sans-serif;
+    
 }
 
 header {
@@ -72,13 +79,15 @@ header > div {
     color: var(--cor4);
     padding: 18px;
     text-decoration: none;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--font-padrao);
+    font-weight: 100;
 }
 
-.meu-botao {
+button {
     background-color: var(--cor3);
     color: var(--cor4);
-    font-family: 'Noto Sans', sans-serif;
+    font-family:var(--font-padrao);
+    font-weight: bold;
     position: absolute;
     left: 1144px;
     top: 31px;
@@ -87,6 +96,19 @@ header > div {
     width: 160px;
     border-radius: 6px;
     border: none;
+}
+
+button:hover {
+    background-color: var(--cor4);
+    color: var(--cor3);
+    transition: 1s;
+}
+
+button:active {
+    transform: scale(0.9);
+    background-color: var(--cor3);
+    color: var(--cor4);
+
 }
 
 .linha {
@@ -154,8 +176,8 @@ header > div {
 }
 
 .h2-1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: var(--font-padrao);
+    font-weight: bolder;
     font-size: 2.5em;
     color: var(--cor2);
     position: absolute;
@@ -168,12 +190,18 @@ header > div {
     left: 1045px;
     width: 404px;
     height: 209px;
-    font-family:'Noto Sans', sans-serif;
+    font-family:var(--font-padrao);
+    font-weight: 300px;
     color: var(--cor4);
     margin: 15px 0px;
     margin-bottom: 10px;
     font-size: 1em;
     line-height: 1.5em;
+}
+
+#pzero {
+    font-size: .9em;
+    font-weight: 100;
 }
 
 .numberTwo {
@@ -194,10 +222,10 @@ header > div {
     position: absolute;
     top: 1863px;
     left: 975px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font2);
     font-weight: bold;
     font-size: 2.5em;
-    background-image: linear-gradient(90deg, var(--cor1), var(--cor2));
+    background-image: linear-gradient(90deg, var(--cor1), var(--cor2), var(--cor1));
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -220,16 +248,23 @@ header > div {
     width: 408px;
     height: 322px;
     color: var(--cor3);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-padrao);
+    font-weight: 100px;
+    font-size: .9em;
 }
 
 #pOne {
     font-size: 18.5px;
+    font-weight: bold;
+}
+
+#pTwo {
+    font-weight: bold;
 }
 
 #img-l {
     position: absolute;
-    top: 80px;
+    top: 95px;
     left: 1;
     width: 410px;
 }
@@ -243,6 +278,7 @@ header > div {
 }
 
 .config{
+    position: relative;
     width: 327px;
     height: 228px;
     background-color: var(--cor4);
@@ -253,33 +289,30 @@ header > div {
     box-shadow:1px 32px 35px rgba(0, 0, 0, 0.196);
 }
 
+.formaP {
+    position: absolute;
+    top: -12px;
+    left: 135px;
+    font-family: var(--font1);
+    font-size:5em;
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px rgba(163, 161, 161, 0.721), -1px 1px rgba(163, 161, 161, 0.721), 1px -1px rgba(163, 161, 161, 0.721);
+}
+
 .h2-bc3 {
     position: absolute;
-    top: 30px;
-    left: 425px;
+    top: 40px;
+    left:80px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
-.h2-bc3-2 {
-    position: absolute;
-    top: 30px;
-    left: 760px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.h2-bc3-3 {
-    position: absolute;
-    top: 30px;
-    left: 1076px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .pTwo {
    display: flex;
    align-items: center;
    justify-content: center;
-   height: 200px;
    text-align: center;
+   height: 250px;
 }
 
