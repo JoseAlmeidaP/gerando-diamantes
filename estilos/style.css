@@ -83,7 +83,7 @@ header > div {
     font-weight: 100;
 }
 
-button {
+.button1 {
     background-color: var(--cor3);
     color: var(--cor4);
     font-family:var(--font-padrao);
@@ -98,13 +98,15 @@ button {
     border: none;
 }
 
-button:hover {
+.button1:hover {
     background-color: var(--cor4);
     color: var(--cor3);
     transition: 1s;
+    border: solid var(--cor3);
+    cursor: pointer;
 }
 
-button:active {
+.button1:active {
     transform: scale(0.9);
     background-color: var(--cor3);
     color: var(--cor4);
@@ -322,7 +324,7 @@ button:active {
 
 .jornada {
     position: absolute;
-    top: 2750px;
+    top: 2710px;
     width: 100%;
     height: 48px;
 }
@@ -368,7 +370,7 @@ button:active {
 
 .bloco6 {
     position: absolute;
-    top: 2850px;
+    top: 2810px;
     width: 100%;
     height: 180px;
 }
@@ -377,19 +379,20 @@ button:active {
     display: flex;
     flex-direction: row;
     position: absolute;
+    left: auto;
     width: 992px;
     height: 170px;
 }
 
 #t-1 {
     position: absolute;
-    top: ;
-    left:7px;
+    top: -3px;
+    left: auto;
 }
 #t-2 {
     position: absolute;
-    top: 85px;
-    left: 7px;
+    top: 81px;
+    left: auto;
 }
 
 .but {
@@ -445,6 +448,7 @@ button:active {
 
 .pb {
     font-family: var(--font-padrao);
+    font-weight: 300;
     font-size: .9em;
     color: var(--cor4);
     position: absolute;
@@ -454,10 +458,82 @@ button:active {
 }
 .pb1 {
     font-family: var(--font-padrao);
+    font-weight: 300;
     font-size: .9em;
     color: var(--cor4);
     position: absolute;
     top: -20px;
     left: 30px;
     padding: 40px;
+}
+
+#ps {
+    position: absolute;
+    top: 3110px;
+    width: 100%;
+    height:140px;
+}
+
+.dvbt {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: auto;
+    width: 459px;
+    height: 80px
+}
+
+
+.button2 {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    font-family:var(--font-padrao);
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    padding: 10px;
+    height: 70px;
+    width: 459px;
+    border-radius: 10px;
+    
+}
+
+.ancora {
+    color: #1A7FBD;
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    font-size: 1em;
+}
+
+#seta {
+    position: absolute;
+    top: 17px;
+    left: 404px;
+}
+
+#ps2 {
+    position: absolute;
+    top: 3230px;
+    width: 100%;
+    height:140px;
+}
+
+.dvbt2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: auto;
+    width: 459px;
+    height: 80px
+} 
+
+#vector1 {
+    position: absolute;
+    top: -20px;
+    left: 130px;
+    width: 206px;
+    height: 30px;
+
 }
