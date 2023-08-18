@@ -47,9 +47,21 @@
                             </div>
                             <div>
                                 <img src="imagens/icones/mail.png" alt="Usuário">
-                                <input type="" name="email" id="iestado" placeholder="Estado" autocomplete="Estado" required maxlength="50">
-                                <label for="inome">Estado</label>
-                                input:
+                                <select name="est" id="iest">
+                                    <option value="" selected>--- Escolha ---</option>
+                                    <optgrup label="Região Suldeste">
+                                        <option value="SP">São Paulo</option>
+                                        <option value="Rj">Rio de Janeiro</option>
+                                        <option value="MG">Minas Gerais</option>
+                                    </optgrup>
+                                    
+                                    <optgroup label="Região Nordeste">
+                                        <option value="RN">Natal</option>
+                                        <option value="PB">Paraiba</option>
+                                        <option value="AL">Alagoas</option>
+                                    </optgroup>
+                                    <label for="iest">Estado:</label>
+                                </select>
                             </div>
                         </form>
                     </div>

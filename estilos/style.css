@@ -141,12 +141,14 @@ header > div {
     height: 729px;
     border-radius: 10px;
     background-color: white;
+    overflow: hidden;
 }
 
 #cadastro {
     background-color: aqua;
     width:100%;
     height: 279.5px;
+    text-align: center;
 }
 
 #conhecimento {
