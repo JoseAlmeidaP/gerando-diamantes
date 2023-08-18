@@ -36,23 +36,23 @@
             <div class="row">
                 <div class="contem">
                     <div id="cadastro">
-                        <h1>Formulário de Cadastro </h1>
-                        <p>Preencha seus dados</p>
+                        <h1 id="h1for">Formulário de Cadastro </h1>
+                        <p id="pfor">Preencha seus dados</p>
                         <form action="" method="get" autocomplete="on">
-                            <div class="cadastro">
-                                <img src="imagens/icones/user.png" alt="Usuário">
+                            <div class="cadastro row alling">
+                                <img class="img-cad" src="imagens/icones/user.png" alt="Usuário">
                                 <input type="text" name="nome" id="inome" placeholder="Nome completo" autocomplete="additional-name" required minlength="2" maxlength="50">
                                 <label for="inome">Nome</label>
                             </div>
-                            <div class="cadastro">
-                                <img src="imagens/icones/mail.png" alt="Usuário">
+                            <div class="cadastro row alling">
+                                <img class="img-cad" src="imagens/icones/mail.png" alt="Usuário">
                                 <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required maxlength="50">
-                                <label for="inome">Email</label>
+                                <label for="iemail">Email</label>
                             </div>
-                            <div class="cadastro">
-                                <img src="imagens/icones/mail.png" alt="Usuário">
+                            <div class="cadastro row alling">
+                                <img class="img-cad" src="imagens/icones/state.png" alt="Usuário">
                                 <select name="est" id="iest">
-                                    <option value="" selected>--- Escolha ---</option>
+                                    <option value="" selected>Estado</option>
                                     <optgrup label="Região Suldeste">
                                         <option value="SP">São Paulo</option>
                                         <option value="Rj">Rio de Janeiro</option>
@@ -70,10 +70,50 @@
                         </form>
                     </div>
                     <div id="conhecimento">
-                        <h1>Conhecimento de Programação*</h1>
+                        <h1 id="h1conhecimento">Conhecimento de Programação*</h1>
+                        <form action="" method="get">
+                            <div class="conhecimento">
+                                <input type="checkbox" name="html" id="ihtml">
+                                <label for="ihtml">HTML5</label>
+                                <input type="checkbox" name="css" id="icss">
+                                <label for="icss">CSS3</label>
+                                <input type="checkbox" name="js" id="ijs">
+                                <label for="ijs">JavaScript</label>
+                                <input type="checkbox" name="php" id="iphp">
+                                <label for="iphp">PHP</label> <br>
+                                <input type="checkbox" name="net" id="inet">
+                                <label for="inet">.NET</label>
+                                <input type="checkbox" name="vjs" id="ivjs">
+                                <label for="ivjs">Vue.JS</label>
+                                <input type="checkbox" name="react" id="ireact">
+                                <label for="ireact">ReactJS</label>
+                                <input type="checkbox" name="rn" id="irn">
+                                <label for="irn">React Native</label> <br>
+                                <input type="checkbox" name="node" id="inode">
+                                <label for="inode">Node</label>
+                                <input type="checkbox" name="python" id="ipython">
+                                <label for="ipython">Python</label>
+                                <input type="checkbox" name="hflutter" id="iflutter">
+                                <label for="iflutter">Flutter</label>
+                                <input type="checkbox" name="outras" id="ioutras">
+                                <label for="ioutras">Outras</label>
+                            </div>
+                        </form>
                     </div>
                     <div id="dev">
                         <h1>Já trabalhou com desenvolvimento?</h1>
+                        <form action="" method="get">
+                            <div class="sim-nao">
+                                <input type="radio" name="sim" id="inao">
+                                <label for="nao">Não</label>
+                                <input type="radio" name="sim" id="isim">
+                                <label for="sim">Sim</label>
+                            </div>
+                            <img class="li-ns" src="imagens/Elements/Line1.png" alt="">
+                            <p class="pns">(*) Campos obrigatórios</p>
+                            <button>Enviar</button>
+                            <p class="pfim">Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em <p>política de privacidade.</p></p>
+                        </form>
                     </div>
                 </div>
                 <h2 class="h2-1" id="projeto">O Projeto</h2>
