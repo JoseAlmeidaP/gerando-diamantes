@@ -30,11 +30,6 @@ html {
 }
 
 
-
-body {
-    
-}
-
 header {
     background-color: var(--cor1);
     width: 100%vw;
@@ -234,12 +229,72 @@ form > div.conhecimento {
     justify-content: space-between;
 }
 
+
+
 #dev {
     background-color: var(--cor4);
-    background-color:var();
     width:100%;
     height: 279.5px;
+    padding: 30px;
 }
+
+.h1dev {
+    font-family: var(--font-padrao);
+    font-size: .8em;
+    padding-bottom: 10px;
+    color: var(--cor1);
+    font-weight: bolder;
+}
+
+form > div.sim-nao {
+    font-family: var(--font-padrao);
+    color: var(--cor6);
+    padding-bottom: 10px;
+}
+
+.li-sn {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.psn {
+    font-family: var(--font-padrao);
+    color: var(--cor1);
+    font-weight: bold;
+    font-size: .6em;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#dev > form > button {
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+    background-color: var(--cor1);
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    color: var(--cor4);
+}
+
+.pfim{
+    font-family: var(--font-padrao);
+    font-size: .5em;
+    color: var(--cor6);
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.pfim2{
+    font-family: var(--font-padrao);
+    font-size: .5em;
+    font-weight: bolder;
+    color: var(--cor1);
+    
+}
+
+
+
 
 .ele-1  {
     position: absolute;
