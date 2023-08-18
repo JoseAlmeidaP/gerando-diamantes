@@ -227,7 +227,6 @@ form > div.conhecimento {
     font-family: var(--font-padrao);
     color: var(--cor4);
     border: none;
-    justify-content: space-between;
 }
 
 
@@ -267,7 +266,7 @@ form > div.sim-nao {
     padding-bottom: 25px;
 }
 
-#dev > form > button {
+#dev > form > input {
     font-family: var(--font-padrao);
     font-size: 1.1em;
     background-color: var(--cor1);
