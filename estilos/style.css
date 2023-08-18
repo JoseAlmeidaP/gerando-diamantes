@@ -21,8 +21,8 @@ html {
     --cor2: #A4DCFF;
     --cor3: black;
     --cor4: white;
-    --cor5: rgb(237, 234, 234);
-    --cor6: rgb(198, 193, 193);
+    --cor5: #FBFBFB;
+    --cor6: #CECECE;
 
     --font-padrao: 'Noto Sans', sans-serif;
     --font1: 'Anton', sans-serif;
@@ -175,6 +175,7 @@ form > div.cadastro {
     border-radius: 5px;
     height: 40px;
     margin: 10px 0px;
+    border: solid var(--cor6);
 }
 
 div.cadastro > label {
@@ -279,7 +280,7 @@ form > div.sim-nao {
 
 .pfim{
     font-family: var(--font-padrao);
-    font-size: .5em;
+    font-size: .6em;
     color: var(--cor6);
     padding-top: 10px;
     text-align: center;
@@ -287,7 +288,7 @@ form > div.sim-nao {
 }
 .pfim2{
     font-family: var(--font-padrao);
-    font-size: .5em;
+    font-size: .6em;
     font-weight: bolder;
     color: var(--cor1);
     
