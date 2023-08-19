@@ -128,6 +128,8 @@ header > div {
     height: 1633px;
 }
 
+
+
 .img-t {
     position: absolute;
     left: -11px;
@@ -232,6 +234,7 @@ form > div.conhecimento {
     color: var(--cor4);
     border: none;
 }
+
 
 .option{
     margin: 8px;
@@ -753,4 +756,122 @@ form > div.sim-nao {
 footer {
     background-color: var(--cor3);
     height: 314px;
+    display: flex;
+    justify-content: center;
+}
+
+div.foot {
+   
+    width: 60%;
+    height:314px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-one {
+    width: 220px;
+    height: 100%;
+    position: absolute;
+    left: 45px;
+    text-align: center;
+}
+
+#imgLogo {
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+#icFb {
+    position: absolute;
+    left: 16px;
+    top: 152px;
+    width: 20px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+#icIg {
+    position: absolute;
+    left: 56px;
+    top: 152px;
+    width: 20px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+#icIn {
+    position: absolute;
+    left: 96px;
+    top: 152px;
+    width: 20px;
+    height: 30px
+    padding-bottom: 10px;
+}
+
+aside.footer-one > p {
+    font-family: var(--font-padrao);
+    font-size: .6em;
+    color: var(--cor4);
+    padding-top: 30px;
+    position: absolute;
+    left: 16px;
+}
+
+div.foot > button {
+    width: 160px;
+    height: 44px;
+    background-color: var(--cor4);
+    font-family: var(--font-padrao);
+    font-weight: bolder;
+    font-size: .9em;
+    border-radius: 8px;
+    position: absolute;
+    top: 85px;
+    left: 380px;
+}
+
+.footer-two {
+    width: 90px;
+    height: 120px;
+    position: absolute;
+    top: 85px;
+    left: 600px;
+}
+
+
+.paragrafos {
+    font-family: var(--font-padrao);
+    font-size: .9em;
+    font-weight: 300;
+    color: var(--cor4);
+    padding-bottom: 10px;
+}
+
+#imgLi {
+    height: 121px;
+    position: absolute;
+    top: 85px;
+    left: 750px;
+}
+
+.footer-three {
+    width: 170px;
+    height: 120px;
+    position: absolute;
+    top: 85px;
+    left:810px;
+}
+
+.paragrafos2 {
+    font-family: var(--font-padrao);
+    font-size: .9em;
+    font-weight: 300;
+    color: var(--cor4);
+    padding-bottom: 10px;
+}
+
+.paragrafos2 > a {
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    font-size: .9em;
+    color: var(--cor4);
 }
