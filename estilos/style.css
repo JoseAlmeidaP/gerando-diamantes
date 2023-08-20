@@ -26,7 +26,6 @@ html {
 
     --font-padrao: 'Noto Sans', sans-serif;
     --font1: 'Anton', sans-serif;
-    --font2: arial, sans-serif;
 }
 
 
@@ -450,7 +449,7 @@ form > div.sim-nao {
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: degrade 10s linear infinite;
+    animation: degrade 3s linear infinite alternate;
 }
 
 @keyframes degrade {
@@ -572,7 +571,7 @@ form > div.sim-nao {
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: degrade 10s linear infinite alternate;
+    animation: degrade 3s linear infinite alternate;
 }
 
 @keyframes degrade {
