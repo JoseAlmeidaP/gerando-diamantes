@@ -41,7 +41,7 @@ header > div {
     width: 80%;
     height: 6.56em;
     background-color: var(--cor1);
-    display: block;
+    display: flex;
     margin: auto;
     align-items: center;
    
@@ -68,11 +68,11 @@ header > div {
 }
 
 .menu {
-    position: absolute;
-    width: 445px;
+    width: 427.81em;
     height: 19px;
-    top:25px;
-    left:425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu > a {
@@ -114,8 +114,8 @@ header > div {
 }
 
 .linha {
-    position: absolute;
     width: 1600px;
+    position: absolute;
     top: 97px;
     left: 43px;
     border: 1px;
