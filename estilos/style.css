@@ -303,8 +303,6 @@ form > div.sim-nao {
 }
 
 
-
-
 .ele-1  {
     position: absolute;
     top:140px;
@@ -814,17 +812,27 @@ aside.footer-one > p {
     left: 16px;
 }
 
+div.foot > button {
+    width: 160px;
+    height: 44px;
+    background-color: var(--cor4);
+    font-family: var(--font-padrao);
+    font-weight: bolder;
+    font-size: .9em;
+    border-radius: 8px;
+    position: absolute;
+    top: 85px;
+    left: 380px;
+}
 
-
-
-.button2 {
+.button3 {
     background-color: var(--cor4);
     color: var(--cor3);
     font-family:var(--font-padrao);
     font-weight: bold;
     position: absolute;
-    left: 364px;
     top: 85px;
+    left: 380px;
     padding: 10px;
     height: 43px;
     width: 160px;
@@ -832,7 +840,7 @@ aside.footer-one > p {
     border: none;
 }
 
-.button2:hover {
+.button3:hover {
     background-color: var(--cor3);
     color: var(--cor4);
     transition: 1s;
@@ -840,7 +848,7 @@ aside.footer-one > p {
     cursor: pointer;
 }
 
-.button2:active {
+.button3:active {
     transform: scale(0.9);
     background-color: var(--cor3);
     color: var(--cor4);
