@@ -126,8 +126,6 @@ header > div {
     height: 1633px;
 }
 
-
-
 .img-t {
     position: absolute;
     left: -11px;
@@ -384,8 +382,8 @@ form > div.sim-nao {
     position: absolute;
     top: 1863px;
     left: 975px;
-    font-family: var(--font2);
-    font-weight: bold;
+    font-family: var(--font-padrao);
+    font-weight: bolder;
     font-size: 2.5em;
     background-image: linear-gradient(90deg, var(--cor1), var(--cor2), var(--cor1));
     background-size: 200% 200%;
@@ -506,8 +504,8 @@ form > div.sim-nao {
 .jornadah2 {
     position: absolute;
     left: 374px;
-    font-family: var(--font2);
-    font-weight: bold;
+    font-family: var(--font-padrao);
+    font-weight: bolder;
     font-size: 2.5em;
     background-image: linear-gradient(90deg, var(--cor1), var(--cor2), var(--cor1));
     background-size: 200% 200%;
@@ -861,7 +859,6 @@ div.foot > button {
     top: 85px;
     left: 600px;
 }
-
 
 .paragrafos {
     font-family: var(--font-padrao);
