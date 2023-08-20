@@ -32,14 +32,14 @@ html {
 
 header {
     background-color: var(--cor1);
-    width: 100%vw;
+    width: 100%;
     height: 105px;
     position: relative;
 }
 
 header > div {
     width: 80%;
-    height: 105px;
+    height: 6.56em;
     background-color: var(--cor1);
     display: block;
     margin: auto;
@@ -59,10 +59,9 @@ header > div {
     align-items: center;
  }
 
-
 .logo {
-    width: 175px;
-    height: 36px;
+    width: 10.93em;
+    height: 2.25em;
     position: absolute;
     top: 29px;
     left: 0px;
